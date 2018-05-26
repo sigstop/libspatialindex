@@ -194,7 +194,7 @@ if (NOT WITH_STATIC_LASZIP)
 endif()
 endif()
 
-#add_library(${SIDX_LIB_NAME} SHARED ${SIDX_SOURCES})
+add_library(${SIDX_LIB_NAME} SHARED ${SIDX_SOURCES})
 
 add_library(${SIDX_C_LIB_NAME} SHARED ${SIDX_CAPI_CPP})
 
