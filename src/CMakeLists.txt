@@ -198,9 +198,9 @@ endif()
 
 add_library(${SIDX_C_LIB_NAME} SHARED ${SIDX_CAPI_CPP})
 
-target_link_libraries(${SIDX_C_LIB_NAME}
+#target_link_libraries(${SIDX_C_LIB_NAME}
 #  ${SIDX_LIB_NAME}
-)
+#)
 
 
 
