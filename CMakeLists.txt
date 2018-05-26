@@ -197,7 +197,7 @@ else()
 endif(APPLE)
 
 
-enable_testing()
+#enable_testing()
 
 #------------------------------------------------------------------------------
 # installation path settings
