@@ -1,7 +1,7 @@
-set (MSVC_VERSION 0)
-if(MSVC_VERSION GREATER_EQUAL 1900)
-   add_definitions(-D_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING)
-endif()
+#set (MSVC_VERSION 0)
+#if(MSVC_VERSION GREATER_EQUAL 1900)
+#   add_definitions(-D_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING)
+#endif()
 
 add_subdirectory(gtest-1.7.0)
 include_directories(./gtest-1.7.0/include)
