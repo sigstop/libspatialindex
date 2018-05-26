@@ -183,9 +183,9 @@ set(SIDX_SOURCES
 # This hack is required to correctly link static into shared library.
 # Such practice is not recommended as not portable, instead each library,
 # static and shared should be built from sources separately.
-#if(UNIX)
-#  add_definitions("-fPIC")
-#endif()
+if(UNIX)
+  add_definitions("-fPIC")
+endif()
 
 if(WIN32)
     add_definitions("-DSIDX_DLL_EXPORT=1")
